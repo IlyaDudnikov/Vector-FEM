@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 env:
-  SOLUTION_FILE_PATH: "Vector FEM.sln"
+  SOLUTION_FILE_PATH: "Vector-FEM.sln"
 
   BUILD_CONFIGURATION: Release
 
