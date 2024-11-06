@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f5cb82a2-bda0-4c1a-b451-29a4ad185ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generator">
+      <UniqueIdentifier>{67045472-0340-42b6-98b8-b6ed1a3acbb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector FEM">
+      <UniqueIdentifier>{a7d2eb40-fe8b-4982-820f-122e106d9597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solver">
+      <UniqueIdentifier>{1302e4af-8116-4094-8853-7e9c78f00ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FEMConfig">
+      <UniqueIdentifier>{e4f51649-928d-4fcb-8f13-c35f3b6435ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Subarea.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorFEM.h">
+      <Filter>Vector FEM</Filter>
+    </ClInclude>
+    <ClInclude Include="operations.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundaryCondition.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LOS.h">
+      <Filter>Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="operationsSolver.h">
+      <Filter>Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="Psi.h">
+      <Filter>Vector FEM</Filter>
+    </ClInclude>
+    <ClInclude Include="FEMConfig.h">
+      <Filter>FEMConfig</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorFEM.cpp">
+      <Filter>Vector FEM</Filter>
+    </ClCompile>
+    <ClCompile Include="LOS.cpp">
+      <Filter>Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="operationsSolver.cpp">
+      <Filter>Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="Pshi.cpp">
+      <Filter>Vector FEM</Filter>
+    </ClCompile>
+    <ClCompile Include="FEMConfig.cpp">
+      <Filter>FEMConfig</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="area.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="grid.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+    <Text Include="boundaryConditions.txt">
+      <Filter>Исходные файлы</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
