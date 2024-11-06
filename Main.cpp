@@ -28,6 +28,7 @@ int main()
     std::cout << std::scientific << std::setprecision(5) << resultPoint.y << '\t' << abs(2.56 - resultPoint.y) << '\n';
 
     std::cout << "test runner" << '\n';
+    std::cout << "runner testing" << '\n';
 
     //vectorFEM.info();
 
