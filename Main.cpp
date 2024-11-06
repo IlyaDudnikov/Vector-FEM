@@ -23,7 +23,7 @@ int main()
     vectorFEM.outputResultsToFIle();
     vectorFEM.outputAllPointsAndVectors();
 
-    Point resultPoint = vectorFEM.calculatePoint(1.6, 2.6);
+    Point resultPoint = vectorFEM.calculatePoint(1.6, 2.6); 
     std::cout << std::scientific << std::setprecision(5) << resultPoint.x << '\t' << abs(6.76 - resultPoint.x) << '\n';
     std::cout << std::scientific << std::setprecision(5) << resultPoint.y << '\t' << abs(2.56 - resultPoint.y) << '\n';
 
